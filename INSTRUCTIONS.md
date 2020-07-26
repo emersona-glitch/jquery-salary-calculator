@@ -1,4 +1,4 @@
-# Weekend Challenge: jQuery Salary Calculator
+<!-- # Weekend Challenge: jQuery Salary Calculator -->
 Create an application that records employee salaries and adds salaries up to report monthly costs. 
 
 ## Topics Covered
@@ -19,6 +19,13 @@ No files have been provided. Fork and clone this repository or create a new GitH
 ### Wireframe
 
 ![Wireframe](salary-calc-wireframe.png)
+
+
+
+
+
+
+
 
 ## Stretch Mode
 
