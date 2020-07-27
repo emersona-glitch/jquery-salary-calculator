@@ -1,0 +1,75 @@
+header {
+    background-color: royalblue;
+    padding: 35px;
+}
+
+header > h1 {
+    margin: auto;
+    width: 75%;
+    color: seashell;
+    text-align: center;
+}
+
+#submitButton {
+    float: right;
+    margin: auto;
+    margin-right: 15px;
+}
+
+body {
+    width: 50%;
+    margin: auto;
+    background-color: tan;
+}
+
+#fields {
+    padding: 10px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex
+}
+
+.column {
+    width: 20%;
+    margin: auto;
+}
+
+.column > .input {
+    width: 90%;
+}
+
+.column > span {
+    font-size: 12px;
+}
+
+#inputSection {
+    width: 90%;
+    margin: auto;
+    background-color: thistle;
+}
+
+h3 {
+    padding: 10px;
+}
+
+#inputSection > p {
+text-align: center;
+}
+
+#outputSection {
+    width: 90%;
+    margin: auto;
+    background-color: thistle;
+}
+
+table, th, td {
+    border-width: 3px;
+    border-style: ridge;
+    padding: auto;
+    margin: 30px;
+    text-align: center;
+}
+
+#totalCost {
+    float: right;
+}

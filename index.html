@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,26 +9,77 @@
     <script src="jquery.js"></script>
     <script src="client.js"></script>
 </head>
-<body>
-    
-    <!-- Header / Title -->
-        <!-- Centered Heading, Background Color -->
-    
-        <!-- Input Row -->
-        <!-- 'Add Employee' -->
-        <!-- Input Fields -->
-        <!-- Alert <p>'s -->
-        <!-- Submit Button -->
-    
-        <!-- Output Table -->
-        <!-- 'Employee List' -->
-        <!-- Employee Table -->
-            <!-- Table Head -->
-            <!-- Table Entries -->
-                <!-- 5 Fields + Delete Button -->
-            <!-- Table Foot (Blank) -->
 
-    <!-- Total Listing -->
+<body>
+
+    <!-- Header / Title -->
+    <!-- Centered Heading, Background Color -->
+    <header id="banner">
+        <h1>Salary Calculator</h1>
+    </header>
+    <!-- Input Section -->
+    <!-- 'Add Employee' -->
+    <div id="inputSection">
+        <h3>Add Employee</h3>
+        <div id="fields">
+            <div class="column">
+                <input id="firstInput" class="input" placeholder="First Name" type="text" />
+                <span class="alert" id="firstAlert"></span>
+            </div>
+            <div class="column">
+                <input id="lastInput" class="input" placeholder="Last Name" type="text" />
+                <span class="alert" id="lastAlert"></span>
+            </div>
+            <div class="column">
+                <input id="idInput" class="input" placeholder="ID#" maxlength=4 type="number" />
+                <span class="alert" id="idAlert"></span>
+            </div>
+            <div class="column">
+                <input id="titleInput" class="input" placeholder="Title" type="text" />
+                <span class="alert" id="titleAlert"></span>
+            </div>
+            <div class="column">
+                <input id="salaryInput" class="input" placeholder="Annual Salary" type="number" />
+                <span class="alert" id="salaryAlert"></span>
+            </div>
+        </div>
+        <button id="submitButton">Submit</button>
+        <p>...</p>
+    </div>
+
+
+
+
+    <!-- Output Table -->
+    <div id="outputSection">
+        <!-- 'Employee List' -->
+    <h3>Employees</h3>
+    
+        <table id="#employeeTable">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>ID#</th>
+                    <th>Job Title</th>
+                    <th>Annual Salary</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                
+        </table>
+        <!-- Employee Table -->
+        <!-- Table Head -->
+        <!-- Table Entries -->
+        <!-- 5 Fields + Delete Button -->
+        <!-- Table Foot (Blank) -->
+
+        <!-- Total Listing -->
+        <h3 id="totalCost">Total Monthly Cost:</h3>
+    </div>
+
 
 </body>
+
 </html>
